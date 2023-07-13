@@ -4,12 +4,15 @@ var json = [{
     "task" : "zen portal task",
     "mail": "johnny.vjohn82@gmail.com"
 },
+
 {
     "id" : "Jv2", 
     "message"   : "For the given JSON iterate over all for loops (for, for in, for of, forEach)",
     "task" : "zen portal task",
     "mail": "johnny.vjohn82@gmail.com"
 }];
+
+
 //for loop
 for(var i = 0; i < json.length; i++) {
     var obj = json[i];
@@ -20,6 +23,7 @@ for(var i = 0; i < json.length; i++) {
     console.log(obj.mail);
 
 }
+
 //for Each
 json.forEach(function(obj) { console.log(obj.message); });
 
@@ -31,6 +35,8 @@ if (json.hasOwnProperty(key)) {
  
 }
 }
+
+
 //for Of
 let text = "";
 for (let x of json[key].id) {
